@@ -7,4 +7,5 @@ It also makes it so that you can move any window around by holding alt and dragg
 
 It installs a tray icon to make it easier to kill after using.
 
+
 Tested in Visual Studio 2019 (v142) w/ Windows SDK 10.0. Works On **MY** Machine™ certified.
