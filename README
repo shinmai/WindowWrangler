@@ -1,0 +1,10 @@
+WindowWrangler adds 3 entries to the window context menu of most/all windows in a Windows 10 system:
+- **On top** - adds `WS_EX_TOPMOST` to the window style to keep it on top of other windows
+- **Hide titlebar** - removes `WS_CAPTION` from the window style to (sometimes) hide the titlebar
+- **Click-through** - adds `WS_EX_LAYERED` & `WS_EX_TRANSPARENT` to the window style, and sets alpha value to 200 to make the window translucent and ignore mouse input
+
+It also makes it so that you can move any window around by holding alt and dragging the window from any position (this interferes heavily with many games and tools like Photoshop).
+
+It installs a tray icon to make it easier to kill after using.
+
+Tested in Visual Studio 2019 (v142) w/ Windows SDK 10.0. Works On **MY** Machine™ certified.
